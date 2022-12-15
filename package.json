@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Context_Toogle",
   "main": "index.js",
+  "homepage": "/switch",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
