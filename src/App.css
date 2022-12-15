@@ -15,15 +15,20 @@
   height: 100px;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .switch label {
   margin: 10px;
 }
 
-#light .switch{background-color: rgb(15, 15, 15)}
-#dark .switch{background-color: rgb(255, 255, 255)}
+#light .switch {
+  background-color: rgb(15, 15, 15)
+}
+
+#dark .switch {
+  background-color: rgb(255, 255, 255)
+}
 
 
 #light .switch label {
