@@ -1,0 +1,46 @@
+.App {
+  font-family: "Ubuntu", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.switch {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.switch label {
+  margin: 10px;
+}
+
+#light .switch{background-color: rgb(15, 15, 15)}
+#dark .switch{background-color: rgb(255, 255, 255)}
+
+
+#light .switch label {
+  color: rgb(255, 255, 255);
+}
+
+#dark .switch label {
+  color: rgb(0, 0, 0);
+}
+
+#light {
+  background: url("./banana.png") no-repeat center bottom #fff
+}
+
+
+
+#dark {
+  background: url("./banana.png") no-repeat center bottom rgb(15, 15, 15);
+
+}
